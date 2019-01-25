@@ -17,6 +17,12 @@ var app = new Vue ({
                 variantId: 5674,
                 variantColor: "Black"
             }
-        ]
+        ],
+        cart: 0
+    },
+    methods: {
+        addToCart: function () {
+            this.cart += 1
+        }
     }
 })
