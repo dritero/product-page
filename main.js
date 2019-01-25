@@ -7,6 +7,16 @@ var app = new Vue ({
         inStock: false,
         inventory: 7,
         onSale: false,
-        details: ["Weight: 136g.", "Dimensions: 147 x 72.6 x 7.9mm.", "OS: Android Oreo.", "Screen size: 5.2-inch."]
+        details: ["Weight: 136g.", "Dimensions: 147 x 72.6 x 7.9mm.", "OS: Android Oreo.", "Screen size: 5.2-inch."],
+        variants: [
+            {
+                variantId: 5673,
+                variantColor: "White"
+            },
+            {
+                variantId: 5674,
+                variantColor: "Black"
+            }
+        ]
     }
 })
