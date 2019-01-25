@@ -4,6 +4,7 @@ var app = new Vue ({
         product: "Nexus LG",
         description: "The best Smartphone that has ever existed",
         image: 'https://s.yimg.com/aah/yhst-77219656498823/lg-nexus-5x-back-battery-cover-replacement-quartz-53.gif',
-        link: 'https://s.yimg.com/aah/yhst-77219656498823/lg-nexus-5x-back-battery-cover-replacement-quartz-53.gif'
+        inStock: false,
+        inventory: 7
     }
 })
