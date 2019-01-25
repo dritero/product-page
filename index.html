@@ -10,8 +10,16 @@
 </head>
 <body>
     <div id="app">
-        <h1>{{ product }}</h1>
-        <p>{{ product + ' ?' }}</p>
+        <div class="product">
+            <div class="prduct-image">
+                <img v-bind:src="image" alt="">
+            </div>
+            <div class="product-info">
+                <h1>{{ product }}</h1>
+                <p>{{ description }}</p>
+            </div>
+        </div>
+
     </div>
 
     <script src="https://unpkg.com/vue"></script>
